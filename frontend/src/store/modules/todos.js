@@ -1,4 +1,6 @@
 import axios from 'axios';
+
+// rails backend api url (runs on localhost:3000)
 const api_url = "http://localhost:3000/api/v1/todos";
 
 const state = {

@@ -1,6 +1,6 @@
 <template>
     <div class="">
-        <h3>Todos</h3>
+        <h4>Todos</h4>
         <div class="legend">
             <span>Double click to mark as completed</span>
             <span><span class="incomplete-box"></span> = Incomplete</span>
@@ -69,6 +69,11 @@ export default {
     text-align: center;
     position: relative;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+.todo:hover {
+    border: 1px solid #555;
+    transition: all 0.3s ease;
 }
 
 i {
